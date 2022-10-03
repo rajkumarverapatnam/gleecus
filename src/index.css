@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 10.5px;
+  /* font-size: 10.5px; */
+  font-size: 62.5%;
 }
 
 img {
