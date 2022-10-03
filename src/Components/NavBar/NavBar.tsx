@@ -14,7 +14,7 @@ export default function NavBar() {
               Clincal <i className="fa fa-angle-down" aria-hidden="true"></i>
             </li>
             <li>
-              <Link to="/">User Graph</Link>
+              <Link to="/GraphDesign">User Graph</Link>
             </li>
             {/* <li>
               <Link to="/GraphDesign">Foo</Link>
