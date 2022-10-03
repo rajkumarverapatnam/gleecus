@@ -1,0 +1,71 @@
+.ag-grid-table {
+  background-color: #fff;
+}
+.breadCrums {
+  padding: 1rem 3rem;
+}
+.breadCrums > ul > li:nth-child(1) > a {
+  color: #000;
+}
+.breadCrums li {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+.breadCrums > ul > li:nth-child(2) > a {
+  color: #000;
+}
+.ag-grid-table h4 {
+  padding: 2rem 3.5rem;
+}
+.fa-long-arrow-right {
+  margin: 0.3rem 0.8rem 0.3rem;
+}
+.headerSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerSec > div {
+  font-size: 1.3rem;
+  border: 1px solid #404df2;
+  margin-right: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+}
+.headerSec > div > span,
+.fa {
+  font-size: 1.5rem;
+  padding: 0 0.2rem;
+  color: #404df2;
+}
+.communicationTabs {
+  margin-bottom: 2rem;
+}
+.communicationTabs ul {
+  border-bottom: 0.5px solid #00000017;
+}
+.communicationTabs li {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin-left: 5rem;
+}
+.communicationTabs li:nth-child(1) {
+  border-bottom: 2px solid #404df2;
+}
+.communicationTabs li a {
+  color: #000;
+}
+.info-collection {
+  display: flex;
+  margin: 2rem 0rem;
+}
+.info-collection-items {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  padding: 1rem 1rem;
+  width: 16rem;
+}

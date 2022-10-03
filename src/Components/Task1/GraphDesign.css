@@ -1,0 +1,72 @@
+.GraphDesign {
+  background-color: #f8f8fa;
+  /* width: 1280px; */
+  /* max-width: 1280px; */
+}
+.graph-layout {
+  /* width: 600px; */
+  width: 45%;
+}
+.graph {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.graphInfo {
+  /* width: 630px; */
+  width: 45%;
+  max-width: 600px;
+  background-color: #fff;
+  /* border-left: 1px solid black;
+  border-bottom: 1px solid black; */
+}
+
+.scroll-box {
+  /* width: 590px; */
+  height: 500px;
+  max-height: 644px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* border-right: 1px solid #00000024; */
+  /* max-height: 250px;
+  overflow-y: scroll;
+  width: 650px;
+  max-width: 600px; */
+}
+.GraphDesign .breadCrums {
+  padding: 2rem 3rem;
+}
+.breadCrums > ul > li:first-child > a {
+  color: #000;
+}
+.breadCrums li {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.GraphDesign h4 {
+  padding: 2rem 3.5rem;
+}
+
+.second-box {
+  height: 50px;
+  position: relative;
+}
+
+.second-box .js-plotly-plot {
+  position: absolute;
+  /* display: initial; */
+  /* margin-left: 35px; */
+  border-top: 1px solid #00000024;
+  /* width: 525px; */
+  left: 7rem;
+}
+
+.second-box .js-plotly-plot .plotly .main-svg {
+  /* position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none; */
+  width: 503px;
+}
