@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gleecus/static/css/main.6713a5b1.css",
+    "main.js": "/Gleecus/static/js/main.99a36eb8.js",
+    "index.html": "/Gleecus/index.html",
+    "main.6713a5b1.css.map": "/Gleecus/static/css/main.6713a5b1.css.map",
+    "main.99a36eb8.js.map": "/Gleecus/static/js/main.99a36eb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6713a5b1.css",
+    "static/js/main.99a36eb8.js"
+  ]
+}
