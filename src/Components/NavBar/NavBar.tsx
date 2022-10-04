@@ -16,7 +16,7 @@ export default function NavBar() {
   return (
     <div className="nav-menu">
       <img src={mobLogo} alt="logo1" className="mobLogo" />
-      <nav className={`${toggleClass ? "navBar" : "toggleClass"}`}>
+      <nav className={`${toggleClass ? "navBar" : "toggleClass"} mobNav`}>
         <div className="nav-left">
           <img src={logo1a} alt="logo1" />
           <ul className="nav-items">
@@ -27,9 +27,7 @@ export default function NavBar() {
               <Link to="/GraphDesign">User Graph</Link>
               <i className="fa fa-angle-down" aria-hidden="true"></i>
             </li>
-            {/* <li>
-              <Link to="/GraphDesign">Foo</Link>
-            </li> */}
+
             <li>
               <Link to="/TableDesign">User Table</Link>
               <i className="fa fa-angle-down" aria-hidden="true"></i>

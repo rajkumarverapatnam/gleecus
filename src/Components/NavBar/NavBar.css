@@ -9,6 +9,12 @@
   align-items: center;
   font-size: 1.6rem;
 }
+.mobNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
 .nav-left,
 .nav-right {
   display: flex;
@@ -16,7 +22,7 @@
 }
 .nav-left ul li {
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   /* margin: 0 5rem; */
   color: #000;
 }
@@ -60,14 +66,16 @@ ul li link {
     flex-direction: column;
     padding: 1rem 0rem;
   }
+  .mobNav {
+    flex-direction: column;
+    padding: 1rem 0rem;
+  }
+
   .nav-left,
   .nav-right {
     display: block;
   }
-  .navBar {
-    flex-direction: column;
-    padding: 1rem 0rem;
-  }
+
   .nav-left ul li {
     display: block;
     text-align: center;
@@ -102,10 +110,10 @@ ul li link {
   }
   /* .nav-menu {
   } */
-  .navBar {
+  /* .navBar {
     flex-direction: column;
     padding: 1rem 0rem;
-  }
+  } */
   .nav-left,
   .nav-right {
     display: block;
