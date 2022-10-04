@@ -17,6 +17,12 @@
   align-items: center;
   margin-bottom: 2rem;
 }
+.dates-start p {
+  font-size: 1.4rem;
+}
+.dates-end p {
+  font-size: 1.4rem;
+}
 .fa-calendar-o {
   color: #2077b4;
 }
@@ -24,20 +30,24 @@
 .calander-date {
   background-color: #f8f8fa;
   margin-left: 2.5rem;
-  padding: 0.6rem 0rem;
+  padding: 0.6rem 0.8rem;
   vertical-align: center;
 }
 .calander-date span {
   padding: 2rem 0rem;
   padding-right: 5rem;
   padding-left: 1rem;
+  font-size: 1.8rem;
 }
 .pending-revenue {
   display: flex;
   justify-content: space-between;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
   height: 5.7rem;
+}
+.pending-revenue p {
+  font-size: 1.8rem;
 }
 .inHousePorcessing {
   background-color: #f8f8fa;
@@ -46,6 +56,7 @@
 }
 .inHousePorcessing h5 {
   margin-bottom: 0.7rem;
+  font-size: 1.4rem;
 }
 .inHouseItems {
   display: flex;
@@ -55,12 +66,12 @@
   flex-wrap: wrap;
 }
 .inHouseItems p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: darkgray;
 }
 .inHousePorcessing > .anchorTag {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0.8rem auto;
   text-decoration: underline;
   color: #2077b4;

@@ -60,12 +60,28 @@
 .info-collection {
   display: flex;
   margin: 2rem 0rem;
+  flex-wrap: wrap;
 }
 .info-collection-items {
   background-color: #f8f8f8;
   display: flex;
   justify-content: space-between;
-  margin: 0 2rem;
+  margin: 0.5rem 2rem;
   padding: 1rem 1rem;
   width: 16rem;
+}
+@media screen and (max-width: 998px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+  .info-collection {
+    flex-wrap: wrap;
+  }
+  .info-collection-items {
+    margin: 1rem 1rem;
+  }
+  .communicationTabs ul {
+    border: none;
+  }
 }
