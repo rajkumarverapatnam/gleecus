@@ -21,16 +21,16 @@ export default function NavBar() {
           <img src={logo1a} alt="logo1" />
           <ul className="nav-items">
             <li>
-              Clincal <i className="fa fa-angle-down" aria-hidden="true"></i>
+              Clincal <i className="fa fa-caret-down" aria-hidden="true"></i>
             </li>
             <li>
               <Link to="/GraphDesign">User Graph</Link>
-              <i className="fa fa-angle-down" aria-hidden="true"></i>
+              <i className="fa fa-caret-down" aria-hidden="true"></i>
             </li>
 
             <li>
               <Link to="/TableDesign">User Table</Link>
-              <i className="fa fa-angle-down" aria-hidden="true"></i>
+              <i className="fa fa-caret-down" aria-hidden="true"></i>
             </li>
           </ul>
         </div>
@@ -42,7 +42,7 @@ export default function NavBar() {
             </li>
             <li>
               <i className="fa fa-user-circle" aria-hidden="true"></i>
-              <i className="fa fa-angle-down" aria-hidden="true"></i>
+              <i className="fa fa-caret-down" aria-hidden="true"></i>
             </li>
           </ul>
         </div>
